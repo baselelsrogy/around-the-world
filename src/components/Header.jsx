@@ -1,9 +1,9 @@
-import Logo from './Logo';
-import ThemeSwitcher from './ThemeSwitcher';
+import Logo from "./Logo";
+import ThemeSwitcher from "./ThemeSwitcher";
 
 export default function Header() {
   return (
-    <header className="mb-6 bg-white shadow dark:bg-gray-800 md:mb-12 transition-colors">
+    <header className="mb-6 bg-white shadow transition-colors md:mb-12 dark:bg-gray-800">
       <div className="container mx-auto px-5 md:px-0">
         <div className="flex h-20 items-center justify-between">
           <Logo />
